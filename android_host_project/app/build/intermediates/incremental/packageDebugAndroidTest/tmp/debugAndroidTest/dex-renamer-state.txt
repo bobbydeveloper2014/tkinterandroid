@@ -1,0 +1,4 @@
+#Fri Oct 17 23:31:41 ICT 2025
+base.0=/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

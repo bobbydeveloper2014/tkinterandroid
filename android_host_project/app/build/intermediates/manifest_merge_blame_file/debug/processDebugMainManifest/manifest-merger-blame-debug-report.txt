@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.byby.tkhost"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+11-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:3:5-82
+11-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:3:22-80
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:4:5-80
+12-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:4:22-78
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/b9e948e1ee6a72ae4ea7cf2d07e6be23/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.byby.tkhost.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/b9e948e1ee6a72ae4ea7cf2d07e6be23/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/b9e948e1ee6a72ae4ea7cf2d07e6be23/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.byby.tkhost.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/b9e948e1ee6a72ae4ea7cf2d07e6be23/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/b9e948e1ee6a72ae4ea7cf2d07e6be23/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:6:5-27:19
+21        android:allowBackup="true"
+21-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/b9e948e1ee6a72ae4ea7cf2d07e6be23/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="true"
+25        android:icon="@android:drawable/sym_def_app_icon"
+25-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:9:9-58
+26        android:label="BybyTkHost"
+26-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:8:9-35
+27        android:testOnly="true" >
+28        <provider
+28-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:10:5-18:20
+29            android:name="androidx.core.content.FileProvider"
+29-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:11:13-62
+30            android:authorities="com.byby.tkhost.provider"
+30-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:12:13-59
+31            android:exported="false"
+31-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:13:13-37
+32            android:grantUriPermissions="true" >
+32-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:14:13-47
+33            <meta-data
+33-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:15:13-17:54
+34                android:name="android.support.FILE_PROVIDER_PATHS"
+34-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:16:17-67
+35                android:resource="@xml/file_paths" />
+35-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:17:17-51
+36        </provider>
+37
+38        <activity
+38-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:20:9-26:20
+39            android:name="com.byby.tkhost.MainActivity"
+39-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:20:19-47
+40            android:exported="true" >
+40-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:21:13-36
+41            <intent-filter>
+41-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:22:13-25:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:23:17-68
+42-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:23:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:24:17-76
+44-->/Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/src/main/AndroidManifest.xml:24:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/4c8dd2fe2be9528a3a4a3e753b63808b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/4c8dd2fe2be9528a3a4a3e753b63808b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+50            android:authorities="com.byby.tkhost.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/4c8dd2fe2be9528a3a4a3e753b63808b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/4c8dd2fe2be9528a3a4a3e753b63808b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/4c8dd2fe2be9528a3a4a3e753b63808b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/4c8dd2fe2be9528a3a4a3e753b63808b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/4c8dd2fe2be9528a3a4a3e753b63808b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/6ddbc9d482ef235e430e964676b4fab6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/6ddbc9d482ef235e430e964676b4fab6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macos/.gradle/caches/9.0-milestone-1/transforms/6ddbc9d482ef235e430e964676b4fab6/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

@@ -1,0 +1,1 @@
+# No ProGuard rules required

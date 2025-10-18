@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.byby.tkhost.app-mergeDebugResources-18:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/macos/.gradle/caches/9.0-milestone-1/transforms/8fc36bc601278a2d9e67c330c707fe64/transformed/appcompat-1.6.1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

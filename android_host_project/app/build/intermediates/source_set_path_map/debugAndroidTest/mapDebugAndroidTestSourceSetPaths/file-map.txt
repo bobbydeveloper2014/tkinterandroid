@@ -1,0 +1,4 @@
+com.byby.tkhost.test.app-androidTest-0 /Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/build/generated/res/resValues/androidTest/debug
+com.byby.tkhost.test.app-mergeDebugAndroidTestResources-1 /Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.byby.tkhost.test.app-mergeDebugAndroidTestResources-2 /Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.byby.tkhost.test.app-debugAndroidTest-3 /Volumes/Data/Laptrinh/App/tkintermobile/android_host_project/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
